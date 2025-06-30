@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 24px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#imagemUsuario {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.textos {
+  margin-top: 16px;
+  font-size: 16px;
+}
