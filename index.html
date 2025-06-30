@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="atividade_6.js" defer></script>
+    <link rel="stylesheet" href="atividade_6.css" />
+    <title>Atividade 6</title>
+  </head>
+  <body>
+    <h1>Cadastro de usuários</h1>
+
+    <form action="">
+      <fieldset>
+        <div>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+        </div>
+        <div>
+          <label for="perfil">Perfil</label>
+          <select id="perfil">
+            <option value="admin">ADM</option>
+            <option value="consultor">Consultor</option>
+            <option value="analista">Analista</option>
+          </select>
+        </div>
+        <div>
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" />
+        </div>
+      </fieldset>
+      <div>
+        <button type="button" id="cadastrar" disabled>Cadastrar</button>
+        <button type="button" id="limpar">Limpar</button>
+      </div>
+    </form>
+
+    <hr />
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Perfil</th>
+          <th>Ação</th>
+        </tr>
+      </thead>
+      <tbody id="tabela-usuarios"></tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  border: 1px solid #3bbfdc;
+  border-radius: 4px;
+  padding: 16px 8px;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset div + div {
+  margin-top: 16px;
+}
+
+fieldset + div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 24px;
+}
+
+#cadastrar,
+#limpar {
+  cursor: pointer;
+  height: 35px;
+  width: 115px;
+  border-radius: 2px;
+  font-weight: 600;
+  color: black;
+}
+
+#cadastrar {
+  border: 1px solid #3bbfdc;
+  background-color: transparent;
+  color: #3bbfdc;
+}
+
+#cadastrar:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#limpar {
+  border: none;
+  background-color: #3bbfdc;
+  color: white;
+}
+
+table {
+  margin-top: 42px;
+}
